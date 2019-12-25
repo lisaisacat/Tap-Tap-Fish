@@ -1,6 +1,7 @@
 --2018-04-01 面板左上角红心白手套位置左移
 require "TSLib"
 local gamebid = "com.idleif.abyssrium"
+init(0)
 w,h = getScreenSize()
 
 function hyStrNum(str)
